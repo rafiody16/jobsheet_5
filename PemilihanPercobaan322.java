@@ -34,7 +34,7 @@ public class PemilihanPercobaan322 {
                 System.out.println(angka1 + " / " + angka2 +" = "+ hasil);
                 break;
             default:
-                System.out.println(0);
+                System.out.println("Inputan tidak dikenali");
         }
 
     }
