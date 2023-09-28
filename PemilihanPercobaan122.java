@@ -1,6 +1,3 @@
-/**
- * PemilihanPercobaan122
- */
 
 import java.util.Scanner;
 
