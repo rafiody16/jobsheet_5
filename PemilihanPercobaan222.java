@@ -19,6 +19,35 @@ public class PemilihanPercobaan222 {
         String message = total < 65 ? "Remidi" : "Tidak Remidi";
 
         System.out.println("Nilai Akhir: "+ total +" sehingga "+ message);
+
+        if (total > 80)
+        {
+            System.out.println("Predikat Nilai: A");
+        } 
+        else if (total > 73 && total <= 80 )
+        {
+            System.out.println("Predikat Nilai: B+");
+        }
+        else if (total > 65 && total <= 73)
+        {
+            System.out.println("Predikat Nilai: B");
+        }
+        else if (total > 60 && total <= 65)
+        {
+            System.out.println("Predikat Nilai: C+");
+        }
+        else if (total > 50 && total <= 60)
+        {
+            System.out.println("Predikat Nilai: C");
+        }
+        else if (total > 39 && total <= 50)
+        {
+            System.out.println("Predikat Nilai: D");
+        }
+        else
+        {
+            System.out.println("Predikat Nilai: E");
+        }
     }
     
 }
